@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Class01</string>
+    <string name="password">Digita tu password</string>
+    <string name="user">Digita su usuario</string>
+    <string name="botoningreso">INGRESAR</string>
+    <string name="botoncancelar">CANCELAR</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="matematica">Matematica</string>
+    <string name="punto1">Escribe las coordenadas del punto A</string>
+    <string name="punto2">Escribe las coordenadas del punto B</string>
+    <string name="acepto_terminos_y_condiciones">Acepto Terminos y condiciones</string>
+    <string name="mostrar">Mostrar</string>
+    <string name="bienvenidos">BIENVENIDOS</string>
+    <string name="matematicas">Matemáticas</string>
+    <string name="fisica">Física</string>
+    <string name="texto">Texto</string>
+    <string name="salir">Salir</string>
+    <string name="home">HOME</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultadoOperacion1">La distancia entre los dos puntos es:</string>
+    <string name="masa">Digite la masa del cuerpo</string>
+    <string name="aceleracion">Digite la aceleracion del cuerpo</string>
+    <string name="calcularfisica">Calcular</string>
+    <string name="resultadoOperacion2">La fuerza aplicada al objeto es de:</string>
+    <string name="input">Escribe aquí</string>
+    <string name="negrita">Negrita</string>
+    <string name="cursiva">Cursiva</string>
+    <string name="ingresarTemperatura">Ingrese la temperatura (C°)</string>
+    <string name="txtresultado">Resultado</string>
+    <string name="cambiar_color">Cambiar color</string>
+
+    <string-array name="escalas_temperaturas">
+        <item>Seleccione la escala</item>
+        <item>Kelvin</item>
+        <item>Fahrenheit</item>
+        <item>Rankine</item>
+    </string-array>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="147dp"
+        android:layout_height="158dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="132dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/texto" />
+
+    <EditText
+        android:id="@+id/edttexto"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="13dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/input"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/checknegrita"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <CheckBox
+        android:id="@+id/checkcursiva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="100dp"
+        android:text="@string/cursiva"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edttexto" />
+
+    <CheckBox
+        android:id="@+id/checknegrita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="38dp"
+        android:text="@string/negrita"
+        app:layout_constraintEnd_toStartOf="@+id/checkcursiva"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edttexto" />
+
+    <ImageButton
+        android:id="@+id/btnaumentar"
+        android:layout_width="51dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="30dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/edttexto"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/plus_pequeno" />
+
+    <ImageButton
+        android:id="@+id/btndisminuir"
+        android:layout_width="51dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="28dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnaumentar"
+        app:srcCompat="@drawable/menos" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

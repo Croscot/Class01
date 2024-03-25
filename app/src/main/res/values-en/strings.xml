@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Class01</string>
+    <string name="password">Enter your password</string>
+    <string name="user">Enter your user</string>
+    <string name="botoningreso">LOG IN</string>
+    <string name="botoncancelar">CANCEL</string>
+    <string name="usuario">User</string>
+    <string name="contrasena">Password</string>
+    <string name="matematica">Mathematics</string>
+    <string name="punto1">Write the coordinates of point A</string>
+    <string name="punto2">Write the coordinates of point B</string>
+    <string name="acepto_terminos_y_condiciones">Accept terms and conditions</string>
+    <string name="mostrar">Show</string>
+    <string name="bienvenidos">WELCOME</string>
+    <string name="matematicas">Math</string>
+    <string name="fisica">Physic</string>
+    <string name="texto">Text</string>
+    <string name="salir">Exit</string>
+    <string name="home">HOME</string>
+    <string name="calcular">Calculate</string>
+    <string name="resultadoOperacion1">The distance between the two points is: </string>
+    <string name="masa">Enter body mass</string>
+    <string name="aceleracion">Enter the acceleration of the body</string>
+    <string name="calcularfisica">Calculate</string>
+    <string name="resultadoOperacion2">The force applied to the object is:</string>
+    <string name="input">Write here</string>
+    <string name="negrita">Bold font</string>
+    <string name="cursiva">Italics</string>
+    <string name="ingresarTemperatura">Enter the temperature (C°)</string>
+    <string name="txtresultado">Result</string>
+    <string name="cambiar_color">Change color</string>
+
+    <string-array name="escalas_temperaturas">
+        <item>Select the scale</item>
+        <item>Kelvin</item>
+        <item>Fahrenheit</item>
+        <item>Rankine</item>
+    </string-array>
+</resources>
